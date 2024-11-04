@@ -14,7 +14,7 @@ To include the **Responsive Spacing** package in your Flutter project, add the f
 
 ```yaml
 dependencies:
-  responsive_spacing: ^0.0.1
+  responsive_spacing: ^1.1.0
 ```
 ## Example Usage
 
