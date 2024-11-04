@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:responsive_spacing/responsive_spacing.dart';
+import 'package:responsive_spacing_v2/responsive_spacing_v2.dart';
 
 void main() {
   group('ResponsivePadding', () {

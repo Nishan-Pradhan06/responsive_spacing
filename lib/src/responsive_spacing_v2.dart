@@ -16,7 +16,8 @@ class ResponsivePadding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    double padding = screenWidth < 600 ? smallScreenPadding : largeScreenPadding;
+    double padding =
+        screenWidth < 600 ? smallScreenPadding : largeScreenPadding;
 
     return Padding(
       padding: EdgeInsets.all(padding),

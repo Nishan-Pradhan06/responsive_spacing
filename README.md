@@ -1,53 +1,39 @@
-# Responsive Spacing
+<!--
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
 
-A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes. This package is especially helpful for creating layouts that need flexible padding and margin based on screen width, ideal for responsive design.
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/to/develop-packages).
+-->
+
+TODO: Put a short description of the package here that helps potential users
+know whether this package might be useful for them.
 
 ## Features
 
-- **ResponsivePadding**: Adds adjustable padding around a widget based on screen size.
-- **ResponsiveMargin**: Adds adjustable margin around a widget based on screen size.
-- Customizable padding and margin values for both small and large screens.
+TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Installation
+## Getting started
 
-To include the **Responsive Spacing** package in your Flutter project, add the following dependency to your `pubspec.yaml` file:
+TODO: List prerequisites and provide or point to information on how to
+start using the package.
 
-```yaml
-dependencies:
-  responsive_spacing: ^1.1.0
-```
-## Example Usage
+## Usage
 
-```
-import 'package:responsive_spacing/responsive_spacing.dart';
-```
-The `ResponsivePadding` widget allows you to add responsive padding around any child widget based on the screen size. Below is an example of how to use it:
+TODO: Include short and useful examples for package users. Add longer examples
+to `/example` folder.
 
 ```dart
-ResponsivePadding(
-  smallScreenPadding: 8.0, // Padding for screens smaller than 600px
-  largeScreenPadding: 16.0, // Padding for screens 600px and larger
-  child: Container(
-    color: Colors.blue,
-    child: Text(
-      "This text has responsive padding",
-      style: TextStyle(color: Colors.white),
-    ),
-  ),
-);
+const like = 'sample';
 ```
-The `ResponsiveMargin` widget allows you to add responsive margin around any child widget. Here’s an example:
 
-```dart
-ResponsivePadding(
-  smallScreenPadding: 8.0, // Padding for screens smaller than 600px
-  largeScreenPadding: 16.0, // Padding for screens 600px and larger
-  child: Container(
-    color: Colors.blue,
-    child: Text(
-      "This text has responsive padding",
-      style: TextStyle(color: Colors.white),
-    ),
-  ),
-);
-```
+## Additional information
+
+TODO: Tell users more about the package: where to find more information, how to
+contribute to the package, how to file issues, what response they can expect
+from the package authors, and more.
