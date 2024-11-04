@@ -1,6 +1,6 @@
 # Responsive Spacing
 
-A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes. This package is especially helpful for creating layouts that need flexible padding and margin based on screen width, which is ideal for responsive design.
+A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes. This package is especially helpful for creating layouts that need flexible padding and margin based on screen width, ideal for responsive design.
 
 ## Features
 
@@ -10,8 +10,44 @@ A simple Flutter package to add responsive padding and margin widgets for consis
 
 ## Installation
 
-Add the following to your `pubspec.yaml`:
+To include the **Responsive Spacing** package in your Flutter project, add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
   responsive_spacing: ^0.0.1
+```
+## Example Usage
+
+```
+import 'package:responsive_spacing/responsive_spacing.dart';
+```
+The `ResponsivePadding` widget allows you to add responsive padding around any child widget based on the screen size. Below is an example of how to use it:
+
+```dart
+ResponsivePadding(
+  smallScreenPadding: 8.0, // Padding for screens smaller than 600px
+  largeScreenPadding: 16.0, // Padding for screens 600px and larger
+  child: Container(
+    color: Colors.blue,
+    child: Text(
+      "This text has responsive padding",
+      style: TextStyle(color: Colors.white),
+    ),
+  ),
+);
+```
+The `ResponsiveMargin` widget allows you to add responsive margin around any child widget. Here’s an example:
+
+```dart
+ResponsivePadding(
+  smallScreenPadding: 8.0, // Padding for screens smaller than 600px
+  largeScreenPadding: 16.0, // Padding for screens 600px and larger
+  child: Container(
+    color: Colors.blue,
+    child: Text(
+      "This text has responsive padding",
+      style: TextStyle(color: Colors.white),
+    ),
+  ),
+);
+```
