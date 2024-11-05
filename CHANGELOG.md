@@ -1,4 +1,4 @@
-## [1.1.1] - 2024-11-04
+## [1.1.2] - 2024-11-04
 ### Initial Release
 - Released the **Responsive Spacing** package with the following features:
   - **ResponsivePadding**: A widget that automatically adjusts padding around a child widget based on the screen size.
