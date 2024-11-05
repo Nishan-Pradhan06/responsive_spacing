@@ -39,15 +39,15 @@ ResponsivePadding(
 The `ResponsiveMargin` widget allows you to add responsive margin around any child widget. Here’s an example:
 
 ```dart
-ResponsivePadding(
-  smallScreenPadding: 8.0, // Padding for screens smaller than 600px
-  largeScreenPadding: 16.0, // Padding for screens 600px and larger
-  child: Container(
-    color: Colors.blue,
-    child: Text(
-      "This text has responsive padding",
-      style: TextStyle(color: Colors.white),
-    ),
+ResponsiveMargin(
+  smallScreenMargin: 8.0, // Margin for screens smaller than 600px
+  largeScreenMargin: 16.0, // Margin for screens 600px and larger
+  child: ElevatedButton(
+    onPressed: () {
+      // Button action
+      print("Button pressed!");
+    },
+    child: Text("Button with responsive margin"),
   ),
 );
 ```
