@@ -19,7 +19,7 @@ dependencies:
 ## Example Usage
 
 ```
-import 'package:responsive_spacing/responsive_spacing.dart';
+import 'package:responsive_spacing_v2/responsive_spacing_v2.dart';
 ```
 The `ResponsivePadding` widget allows you to add responsive padding around any child widget based on the screen size. Below is an example of how to use it:
 
