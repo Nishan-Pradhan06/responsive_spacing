@@ -1,3 +1,7 @@
+## [1.1.3] - 2025-05-09
+### Fixed
+- Improved documentation.
+
 ## [1.1.2] - 2024-11-04
 ### Initial Release
 - Released the **Responsive Spacing** package with the following features:
