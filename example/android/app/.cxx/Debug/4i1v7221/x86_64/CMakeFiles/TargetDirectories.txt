@@ -1,0 +1,2 @@
+F:/responsive_spacing_v2/example/android/app/.cxx/Debug/4i1v7221/x86_64/CMakeFiles/edit_cache.dir
+F:/responsive_spacing_v2/example/android/app/.cxx/Debug/4i1v7221/x86_64/CMakeFiles/rebuild_cache.dir

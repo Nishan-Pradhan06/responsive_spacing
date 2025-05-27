@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:responsive_spacing_v2/responsive_spacing_v2.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const ResponsiveSpacingProvider(
+      base: 8.0,
+      scale: 1.5,
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -40,6 +46,21 @@ class MyApp extends StatelessWidget {
                 // Button action
               },
               child: const Text("Button without responsive margin"),
+            ),
+
+            /// ResponsiveSpacer
+            const ResponsiveSpacer(size: 'sm'),
+            const ResponsiveSpacer(size: 'lg'),
+            /// context.spacing
+            Padding(
+              padding: EdgeInsets.symmetric(
+                vertical: context.spacing.sm,
+                horizontal: context.spacing.lg,
+              ),
+              child: const Text(
+                'This padding uses the responsive spacing scale',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),

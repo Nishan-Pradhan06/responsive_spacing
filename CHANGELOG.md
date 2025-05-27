@@ -1,3 +1,9 @@
+## [1.1.4] - 2025-05-27
+### Added
+- **ResponsiveSpacingProvider**: Provides a global spacing scale based on a base unit and scaling factor.
+- **ResponsiveSpacer**: A widget to insert vertical or horizontal space using a responsive scale (`xs`, `sm`, `md`, `lg`, `xl`).
+- `context.spacing`: Extension on `BuildContext` to access spacing values dynamically.
+
 ## [1.1.3] - 2025-05-09
 ### Fixed
 - Improved documentation.
