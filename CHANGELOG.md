@@ -1,3 +1,7 @@
+## [1.2.3] - 2025-05-27
+### Fixed
+- Improved documentation.
+
 ## [1.2.0] - 2025-05-27
 ### Added
 - **ResponsiveSpacingProvider**: Provides a global spacing scale based on a base unit and scaling factor.

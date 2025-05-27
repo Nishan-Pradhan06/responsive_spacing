@@ -1,11 +1,25 @@
 import 'package:flutter/material.dart';
 
-/// Responsive padding widget that adjusts padding based on screen size.
+/// A widget that adds responsive padding around its [child]
+/// based on the screen width.
+///
+/// Automatically switches between [smallScreenPadding] and
+/// [largeScreenPadding] depending on the screen size threshold (600px).
 class ResponsivePadding extends StatelessWidget {
+  /// The widget to which the padding will be applied.
   final Widget child;
+
+  /// Padding for screens narrower than 600 pixels.
   final double smallScreenPadding;
+
+  /// Padding for screens 600 pixels wide or wider.
   final double largeScreenPadding;
 
+  /// Creates a [ResponsivePadding] widget.
+  ///
+  /// - [child] is required.
+  /// - [smallScreenPadding] defaults to `8.0`.
+  /// - [largeScreenPadding] defaults to `16.0`.
   const ResponsivePadding({
     super.key,
     required this.child,
@@ -26,12 +40,26 @@ class ResponsivePadding extends StatelessWidget {
   }
 }
 
-/// Responsive margin widget that adjusts margin based on screen size.
+/// A widget that adds responsive margin around its [child]
+/// based on the screen width.
+///
+/// Automatically switches between [smallScreenMargin] and
+/// [largeScreenMargin] depending on the screen size threshold (600px).
 class ResponsiveMargin extends StatelessWidget {
+  /// The widget to which the margin will be applied.
   final Widget child;
+
+  /// Margin for screens narrower than 600 pixels.
   final double smallScreenMargin;
+
+  /// Margin for screens 600 pixels wide or wider.
   final double largeScreenMargin;
 
+  /// Creates a [ResponsiveMargin] widget.
+  ///
+  /// - [child] is required.
+  /// - [smallScreenMargin] defaults to `8.0`.
+  /// - [largeScreenMargin] defaults to `16.0`.
   const ResponsiveMargin({
     super.key,
     required this.child,

@@ -1,6 +1,6 @@
 # Responsive Spacing
 
-A simple Flutter package to add responsive padding, margin, and scalable spacing widgets for consistent, adaptive layouts across all screen sizes. Includes utilities like ResponsivePadding, ResponsiveMargin, ResponsiveSpacer, and ResponsiveSpacingProvider to help you build fluid and maintainable UIs with ease.
+A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes.
 
 ## Features
 
@@ -43,6 +43,7 @@ void main() {
 ```
 
 ## ✅ResponsivePadding
+
 The `ResponsivePadding` widget allows you to add responsive padding around any child widget based on the screen size. Below is an example of how to use it:
 
 ```dart
@@ -57,9 +58,10 @@ ResponsivePadding(
     ),
   ),
 );
-````
+```
 
 ## ✅ResponsiveMargin
+
 The `ResponsiveMargin` widget allows you to add responsive margin around any child widget. Here’s an example:
 
 ```dart
@@ -77,6 +79,7 @@ ResponsiveMargin(
 ```
 
 ## ✅ResponsiveSpacer
+
 The `ResponsiveSpacer` widget inserts vertical or horizontal space using the spacing scale.
 
 ```dart
@@ -87,6 +90,7 @@ const ResponsiveSpacer(size: 'lg', axis: Axis.horizontal); // Horizontal spacing
 ```
 
 ## ✅Access Spacing via context.spacing
+
 You can access spacing values directly from the context using predefined sizes:
 
 ```dart

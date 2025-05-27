@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
             /// ResponsiveSpacer
             const ResponsiveSpacer(size: 'sm'),
             const ResponsiveSpacer(size: 'lg'),
+
             /// context.spacing
             Padding(
               padding: EdgeInsets.symmetric(

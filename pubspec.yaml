@@ -1,6 +1,6 @@
 name: responsive_spacing_v2
-description: "A simple Flutter package to add responsive padding, margin, and scalable spacing widgets for consistent, adaptive layouts across all screen sizes. Includes utilities like ResponsivePadding, ResponsiveMargin, ResponsiveSpacer, and ResponsiveSpacingProvider to help you build fluid and maintainable UIs with ease."
-version: 1.2.0
+description: "A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes."
+version: 1.2.3
 homepage: https://github.com/Nishan-Pradhan06/responsive_spacing_v2
 
 environment:
