@@ -53,8 +53,8 @@ class _InheritedResponsiveSpacing extends InheritedWidget {
 
   const _InheritedResponsiveSpacing({
     required this.spacing,
-    required Widget child,
-  }) : super(child: child);
+    required super.child,
+  });
 
   @override
   bool updateShouldNotify(_InheritedResponsiveSpacing oldWidget) {
